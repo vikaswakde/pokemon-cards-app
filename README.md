@@ -4,49 +4,38 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
-## Step 1: Start the Metro Server
+## Step 1: Clone the repo
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
-
-To start Metro, run the following command from the _root_ of your React Native project:
+First, you will need to clone the repo to use this project/app:
 
 ```bash
-# using npx
-npx start
-
-# OR using Yarn
-yarn start
+git clone https://github.com/vikaswakde/pokemon-cards-app.git
 ```
 
-## Step 2: Start your Application
-
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
+## Step 2: Navigate to the project directory:
 
 ```bash
-# using npx
-npx run android
-
-# OR using Yarn
-yarn android
+cd pokemon-cards-app
 ```
 
-### For iOS
+## Step 3: Install dependencies:
 
 ```bash
-# using npx
-npx run ios
-
-# OR using Yarn
-yarn ios
+npm install
+# or
+yarn install
 ```
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
+## Step 3.0: Run the app on Android:
+```bash
+npx react-native run-android
+```
+- If you encounter issues, make sure you have the necessary Android development environment set up.
+## Step 3.1: Run the app on ios:
+```bash
+npx react-native run-ios
+```
+- If you encounter issues, make sure you have Xcode installed on your macOS machine.
 
 Now that you have successfully run the app, let's modify it.
 
